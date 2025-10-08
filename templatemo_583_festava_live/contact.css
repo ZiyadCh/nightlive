@@ -6,13 +6,11 @@ body {
     align-items: center;
 }
 
-section {
-    border: dotted, orangered    ,5px;
-    border-radius: 50px;
+.s {
+
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
     padding: 10px;
     width: 100%;
 }
