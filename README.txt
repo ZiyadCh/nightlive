@@ -12,3 +12,7 @@ du fichier index.html, puis jais copier les lien de css
 5: styler contact
 
 6: creation ticket.html
+
+7: style ticket
+
+8: modifier contact
