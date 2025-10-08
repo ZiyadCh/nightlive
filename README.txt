@@ -1,4 +1,8 @@
 
 1: j'ais ajouter un nouveau fichier appele about,html et copier la section About
 
-du fichier index.html, puis jais copier les lien de css 
+du fichier index.html, puis jais copier les lien de css
+
+2: dans index.html, ajouter hred = "about.html"
+
+3: meme chause pour les autre.
