@@ -9,3 +9,8 @@ du fichier index.html, puis jais copier les lien de css
 
 4: dans index, creation ajouter un button avec href= contact.html
 
+5: styler contact
+5: styler contact
+5: styler contact
+5: styler contact
+5: styler contact
