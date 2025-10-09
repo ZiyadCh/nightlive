@@ -16,3 +16,5 @@ du fichier index.html, puis jais copier les lien de css
 7: style ticket
 
 8: modifier contact
+
+9: ajouter une image comme arriere plan
