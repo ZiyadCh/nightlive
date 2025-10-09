@@ -1,9 +1,9 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction:column;
-    background-image: url(images/nicholas-green-unsplash-blur.jpg);
+    flex-direction: column;
+    background: black;
     background-size: cover;
 }
 
@@ -13,52 +13,71 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction:column;
-
+    flex-direction: column;
+    border-radius: 40px;
 }
-.s{
+
+.s {
+         box-shadow: 0px 0px 10px orange;
+
     background: black;
-    border: solid,orangered,2px;
+    border-radius: 20px;
+    border: solid, orange, 2px;
     margin: 100px;
     height: 100vh;
     width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction:column;
+    flex-direction: column;
 }
-.s h1{
-    color: orangered;
+
+.s h1 {
+    color: orange;
 }
-input{
-    background-color: orangered;
-    border: solid,orangered,2px;
+
+input {
+    background-color: orange;
+    border: solid, orange, 2px;
     margin: 10px;
     padding: 3px;
-    color: white;
+    color: orangered;
     transition: 0.4s;
+    border-radius: 15px;
 }
-input::placeholder{
+
+input::placeholder {
     color: black;
 }
-input:focus{
-    text-decoration: none;
-    border-radius: 40px;
+
+input:focus {
+    background-color: transparent;
 }
-input:hover{
-    text-decoration: none;
-    border-radius: 40px;
+
+input:focus::placeholder {
+    color: orangered;
 }
-button{
-    background-color: orangered;
-    border: solid,orangered,2px;
+
+input:hover {
+    background-color: transparent;
+}
+input:hover::placeholder {
+    color: orange;
+}
+
+button {
+    background-color: orange;
+    border: solid, orange, 2px;
     margin: 10px;
     padding: 3px;
-    color: white;
+    color: black;
     transition: 0.5s;
-}
-button:hover{
-    background-color: transparent;
     border-radius: 40px;
-    color: orangered;
+}
+
+button:hover {
+    background-color: transparent;
+     box-shadow: 0px 0px 10px orange;
+
+    color: orange;
 }
