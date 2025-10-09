@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: black;
+    background-image: url(images/austin-neill-hgO1wFPXl3I-unsplash.jpg);
     background-size: cover;
 }
 
@@ -37,8 +37,9 @@ body {
 }
 
 input {
-    background-color: orange;
     border: solid, orange, 2px;
+  
+    background-color: orange;
     margin: 10px;
     padding: 3px;
     color: orangered;
