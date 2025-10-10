@@ -6,7 +6,18 @@ body{
    background-image: url(images/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg);
     background-size: cover;
 }
-
+label{
+    color: cyan;
+    text-decoration: underline;
+    margin-bottom: 3px;
+}
+option ,select{
+    border: solid,cyan,2px;
+    border-radius: 20px;
+    background-color: black;
+    color: cyan;
+    width: 80%;
+}
 
 .sec {
     height: 100vh;
@@ -35,7 +46,7 @@ body{
 input {
     background-color: transparent;
     border: solid, cyan, 2px;
-    margin: 10px;
+  
     padding: 3px;
     color: cyan;
     transition: 0.4s;

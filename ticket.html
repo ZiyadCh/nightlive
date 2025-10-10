@@ -136,8 +136,15 @@
             <form class="sec">
                 <div class="s">
                     <h1>Ticket</h1>
-                    <input type="text" placeholder="Nom de Concert">
-                    <input type="number" min="1" placeholder="Nombre de Personnes">
+                    <label for="selection">Concert:</label>
+                    <select name="selection" id="op" >
+                        <option value="">Bruno Bross</option>
+                        <option value="">Madona</option>
+                        <option value="">Rihanna</option>
+                    </select>
+                    <br>
+                    <label for="selection">Nombre de Personnes:</label>
+                    <input type="number" min="0" placeholder="0">
                     <button type="submit" >Confirmer</button>
                 </div>
             </form>
